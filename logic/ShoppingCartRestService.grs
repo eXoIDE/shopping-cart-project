@@ -35,6 +35,7 @@ public class ShoppingCartRestService {
 
   @POST
   @Path("add-product")
+  @Consumes("application/json")
   @Produces("application/json")
   public HashMap<String,String> add(HashMap<String,String> map) {
      addProduct(map)
