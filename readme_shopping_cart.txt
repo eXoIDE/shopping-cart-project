@@ -10,7 +10,7 @@ Setup Instructions
 ------------------------
 
 In order to run the application, you first need to create the new node types in the JCR. 
-In the data folder, create node types (upper right corner) for file: ShoppingCart.cmtc, ShoppingCart.cmtc, Product.cmtc, Product.cmtc.
+In the data folder, create node types (upper right corner) for file: ShoppingCart.cmtc, Shop.cmtc, Product.cmtc, ItemToPurchase.cmtc.
 In the logic folder, deploy the ShoppingCartRestService.grs (Deploy as REST service in upper right corner).
 In the UI folder, you need change value of variable "serverUrl" (by default it set to "http://www.cloud-ide.com/IDE/rest/shop") on your tenant name in ShoppingCartGadget.gadget.
 (for example if your tenant called "exo" you "serverUrl" must be set to "http://exo.cloud-ide.com/IDE/rest/shop")
